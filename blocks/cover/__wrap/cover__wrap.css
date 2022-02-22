@@ -1,0 +1,9 @@
+.cover__wrap {
+    display: block;
+}
+
+@media (min-width: 768px) {
+	.cover__wrap {
+		display: inline;
+	}
+}
