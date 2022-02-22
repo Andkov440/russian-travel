@@ -1,9 +1,13 @@
 .header__image {
 	margin-top: 16px;
+  width: 142px;
+  height: 42px;
 }
 
 @media (min-width: 768px) {
   .header__image {
    	margin-top: 28px;
+    width: 176px;
+    height: 52px;
   }
 }
