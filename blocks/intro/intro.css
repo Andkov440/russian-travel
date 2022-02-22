@@ -1,0 +1,22 @@
+.intro {
+	width: 288px;
+	margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+	.intro {
+		width: 720px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.intro {
+		width: 928px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.intro {
+		width: 984px;
+	}
+}

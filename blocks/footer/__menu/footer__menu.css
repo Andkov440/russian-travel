@@ -1,0 +1,15 @@
+.footer__menu {
+	padding-top: 64px;
+}
+
+@media (min-width: 768px) {
+	.footer__menu {
+		padding-top: 88px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.footer__menu {
+		padding-top: 92px;
+	}
+}

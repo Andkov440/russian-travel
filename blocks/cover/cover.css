@@ -1,0 +1,58 @@
+.cover {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.cover::after {
+	content: "";
+	background-image: url(../../img/cover-320.png);
+	background-color: #2A2C2F;
+	opacity: 0.3;
+	background-repeat: no-repeat;
+  background-size: cover;
+	top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+  opacity: 0.8;
+}
+
+.cover:hover::after {
+  opacity: 0.3;
+}
+
+@media (min-width: 768px) {
+  .cover {
+    width: 768px;
+  }
+
+  .cover::after {
+    background-image: url(../../img/cover-768.png);
+  }
+
+  
+}
+
+@media (min-width: 1024px) {
+  .cover {
+    width: 1024px;
+  }
+
+  .cover::after {
+    background-image: url(../../img/cover-1024.png);
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover {
+    width: 1184px;
+  }
+
+  .cover::after {
+    background-image: url(../../img/cover-1280.png);
+  }
+}
+

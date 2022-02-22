@@ -1,0 +1,21 @@
+.places__url {
+	width: 288px;
+	margin: 0 auto;
+	margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+	.places__url {
+		margin: 0;
+		align-self: end;
+		padding-bottom: 48px;
+	}
+}
+
+@media (min-width: 1280px) {
+	.places__url {
+		display: block;
+		padding-top: 68px;
+		padding-left: 43px;
+	}
+}

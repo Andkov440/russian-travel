@@ -1,0 +1,9 @@
+.lang-menu__item {
+	padding-left: 16px;
+}
+
+@media (min-width: 1280px) {
+  .lang-menu__item {
+    padding-left: 18px;
+  }
+}
