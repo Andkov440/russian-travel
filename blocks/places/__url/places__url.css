@@ -11,11 +11,3 @@
 		padding-bottom: 48px;
 	}
 }
-
-@media (min-width: 1280px) {
-	.places__url {
-		display: block;
-		padding-top: 68px;
-		padding-left: 43px;
-	}
-}

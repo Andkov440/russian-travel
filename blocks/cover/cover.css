@@ -5,12 +5,12 @@
 }
 
 .cover::after {
-	content: "";
-	background-image: url(../../img/cover-320.png);
-	background-color: #2A2C2F;
-	background-repeat: no-repeat;
+  content: "";
+  background-image: url(../../img/cover-320.png);
+  background-color: #2A2C2F;
+  background-repeat: no-repeat;
   background-size: cover;
-	top: 0;
+  top: 0;
   left: 0;
   bottom: 0;
   right: 0;

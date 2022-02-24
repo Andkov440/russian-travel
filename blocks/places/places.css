@@ -1,12 +1,13 @@
 .places {
 	padding-bottom: 66px;
-	
+	padding-top: 64px;
+	margin: 0 auto;
+	width: 320px;
 }	
 
 @media (min-width: 768px) {
 	.places {
 		width: 720px;
-		margin: 0 auto;
 		padding-top: 64px;
 		padding-bottom: 90px;
 	}	

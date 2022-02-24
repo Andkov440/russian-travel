@@ -1,10 +1,10 @@
-.url__address {
+.places__address {
 	font-size: 18px;
 	line-height: 22px;
 	text-decoration-line: underline;
 	color: #FFFFFF;
 }
 
-.url__address:hover {
+.places__address:hover {
 	opacity: 80%;
 }

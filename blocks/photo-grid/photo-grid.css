@@ -1,6 +1,8 @@
 .photo-grid {
 	width: 288px;
 	margin: 0 auto;
+	list-style: none;
+	padding-left: 0;
 }
 
 @media (min-width: 768px) {
