@@ -25,17 +25,18 @@
 
 @media (min-width: 768px) {
   .cover {
-    width: 768px;
+    width: 100%;
   }
 
   .cover::after {
     background-image: url(../../img/cover-768.png);
+    margin: 0;
   }
 }
 
 @media (min-width: 1024px) {
   .cover {
-    width: 1024px;
+    width: 100%;
   }
 
   .cover::after {

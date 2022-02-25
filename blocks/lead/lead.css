@@ -1,12 +1,12 @@
 .lead {
 	margin: 0 auto;
-	width: 320px;
+	width: 100%;
 
 }
 
 @media (min-width: 768px) {
 	.lead {
-		width: 768px;
+		width: 100%;
 	}
 }
 
